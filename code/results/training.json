@@ -1,0 +1,17 @@
+{
+  "all_validation_choices_identical": true,
+  "validation": {
+    "correct": 770,
+    "n": 798,
+    "accuracy": 96.49122807017544,
+    "hard_correct": 327,
+    "hard_n": 355,
+    "hard_accuracy": 92.11267605633803
+  },
+  "max_abs_score_difference": 0.0,
+  "training_seconds": 134.68739833301515,
+  "total_seconds": 142.8116148750123,
+  "test_evaluated": false,
+  "all_learned_weights_refitted": true,
+  "no_validation_fitting_or_selection": true
+}

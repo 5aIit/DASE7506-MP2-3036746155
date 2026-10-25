@@ -1,0 +1,11 @@
+{
+  "source_release": "reviewed v22",
+  "release": "1.0",
+  "validation_choices_identical": true,
+  "validation_max_absolute_score_difference": 0.0,
+  "model_sha256": "3f0a8e59151fcc10fa32a1dc44b83514a46324abc14688ed9003ac90591eec14",
+  "weights_unchanged": true,
+  "test_used_for_selection": false,
+  "test_choices_identical": true,
+  "full_test_score_unchanged": true
+}

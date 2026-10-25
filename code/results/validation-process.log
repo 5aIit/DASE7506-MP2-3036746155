@@ -1,0 +1,57 @@
+{"protocol": "dase7506-mp2-open-hard-verifier-v5", "split": "validation", "prediction_seconds": 4.238798875012435}
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "split": "validation",
+  "correct": 770,
+  "n": 798,
+  "accuracy": 96.49122807017544,
+  "scoring_seconds": 0.016382165980758145
+}
+{
+  "release": "1.0",
+  "split": "validation",
+  "score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 770,
+    "n": 798,
+    "accuracy": 96.49122807017544,
+    "scoring_seconds": 0.016382165980758145
+  },
+  "code_version": "b59aae5bb104322097f1fa42901ad275aba831d628b4a30a104321910c9241c7",
+  "hardware": "Apple M5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "asset_bytes": 5537559,
+  "asset_mib": 5.281027793884277,
+  "fresh_prediction_process_seconds": 4.334672625001986,
+  "fresh_scoring_process_seconds": 0.05678933300077915,
+  "total_seconds": 4.391461958002765,
+  "includes_startup_imports_io": true,
+  "thread_policy": "BLAS=1; OpenMP/CatBoost<=4; sequential processes and ensemble members",
+  "commands": [
+    [
+      "/Users/5aiit./Documents/Codex/DASE7506/DASE7506-MP2-main/code/.venv/bin/python",
+      "predict.py",
+      "--method",
+      "submission.py",
+      "--checkpoint",
+      "checkpoint",
+      "--split",
+      "validation",
+      "--output",
+      "/Users/5aiit./Documents/Codex/DASE7506/DASE7506-MP2-main/code/results/validation-predictions.json"
+    ],
+    [
+      "/Users/5aiit./Documents/Codex/DASE7506/DASE7506-MP2-main/code/.venv/bin/python",
+      "score_predictions.py",
+      "--split",
+      "validation",
+      "--predictions",
+      "/Users/5aiit./Documents/Codex/DASE7506/DASE7506-MP2-main/code/results/validation-predictions.json",
+      "--output",
+      "/Users/5aiit./Documents/Codex/DASE7506/DASE7506-MP2-main/code/results/validation-score.json"
+    ]
+  ],
+  "reference_cpu_not_measured": true
+}

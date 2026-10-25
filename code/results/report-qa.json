@@ -1,0 +1,19 @@
+{
+  "release": "1.0",
+  "report": "output/pdf/MP2_Report_Meng_Weitao_3036746155.pdf",
+  "pages": 6,
+  "report_sha256": "8fdadb7c67736c5eb2e8a38c6a921bbfb89e3da08d2035f5ecd0cc5b9a6ccfcc",
+  "all_pages_visually_reviewed": true,
+  "numbers_checked_against_records": true,
+  "release_integrity_verified": true,
+  "official_tools_unchanged": true,
+  "current_readme_links_valid": true,
+  "only_one_active_release": true,
+  "source": "REPORT_EN.md",
+  "language": "en",
+  "source_sha256": "6b07cf48805804462f98ea47b3c7c5d72c60302c3211d6d884f9ffa7483c56e7",
+  "pdf_body_matches_current_markdown": true,
+  "markdown_source_preserved": true,
+  "chinese_report_removed": true,
+  "temporary_previews_removed": true
+}

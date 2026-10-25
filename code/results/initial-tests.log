@@ -1,0 +1,37 @@
+test_normalized_answers_are_grouped_without_duplicate_weight (test_contract.AnswerHandlingTests.test_normalized_answers_are_grouped_without_duplicate_weight) ... ok
+test_unparseable_candidates_are_masked_when_possible (test_contract.AnswerHandlingTests.test_unparseable_candidates_are_masked_when_possible) ... ok
+test_all_candidate_permutations_preserve_scores (test_contract.SubmissionContractTests.test_all_candidate_permutations_preserve_scores) ... ok
+test_batching_and_duplicate_rows_do_not_change_predictions (test_contract.SubmissionContractTests.test_batching_and_duplicate_rows_do_not_change_predictions) ... ok
+test_candidate_permutation_preserves_selected_numeric_answer (test_contract.SubmissionContractTests.test_candidate_permutation_preserves_selected_numeric_answer) ... ok
+test_ids_and_unrelated_candidate_metadata_are_ignored (test_contract.SubmissionContractTests.test_ids_and_unrelated_candidate_metadata_are_ignored) ... ok
+test_inputs_are_unchanged_and_repeated_calls_are_deterministic (test_contract.SubmissionContractTests.test_inputs_are_unchanged_and_repeated_calls_are_deterministic) ... ok
+test_invalid_embedding_shape_is_rejected (test_contract.SubmissionContractTests.test_invalid_embedding_shape_is_rejected) ... ok
+test_nonfinite_embeddings_are_rejected (test_contract.SubmissionContractTests.test_nonfinite_embeddings_are_rejected) ... ok
+test_only_parseable_candidate_is_selected (test_contract.SubmissionContractTests.test_only_parseable_candidate_is_selected) ... ok
+test_predict_never_opens_references (test_contract.SubmissionContractTests.test_predict_never_opens_references) ... ok
+test_reordering_questions_only_reorders_predictions (test_contract.SubmissionContractTests.test_reordering_questions_only_reorders_predictions) ... ok
+test_single_batch_and_empty_inputs (test_contract.SubmissionContractTests.test_single_batch_and_empty_inputs) ... ok
+test_uncompressed_bundle_is_within_asset_limit (test_contract.SubmissionContractTests.test_uncompressed_bundle_is_within_asset_limit) ... ok
+test_wrong_candidate_count (test_contract.SubmissionContractTests.test_wrong_candidate_count) ... ok
+test_zero_embeddings_and_infinities (test_contract.SubmissionContractTests.test_zero_embeddings_and_infinities) ... ok
+test_currency_names_and_no_currency (test_rules.CurrencyRegressionTests.test_currency_names_and_no_currency) ... ok
+test_mixed_currency_inventory_abstains (test_rules.CurrencyRegressionTests.test_mixed_currency_inventory_abstains) ... ok
+test_mixed_currency_production_abstains (test_rules.CurrencyRegressionTests.test_mixed_currency_production_abstains) ... ok
+test_no_supported_answer_still_abstains (test_rules.CurrencyRegressionTests.test_no_supported_answer_still_abstains) ... ok
+test_missing_supplied_solution_abstains (test_rules.ExplicitConstraintTests.test_missing_supplied_solution_abstains) ... ok
+test_percentage_of_and_off (test_rules.ExplicitConstraintTests.test_percentage_of_and_off) ... ok
+test_production_profit_with_arbitrary_items (test_rules.ExplicitConstraintTests.test_production_profit_with_arbitrary_items) ... ok
+test_unit_annotated_fraction_repair (test_rules.ExplicitConstraintTests.test_unit_annotated_fraction_repair) ... ok
+test_unit_conversion_and_algebra_abstain (test_rules.ExplicitConstraintTests.test_unit_conversion_and_algebra_abstain) ... ok
+test_additional_cost_and_invalid_inventory_abstain (test_rules.InventoryConservationTests.test_additional_cost_and_invalid_inventory_abstain) ... ok
+test_arbitrary_quantities_and_prices (test_rules.InventoryConservationTests.test_arbitrary_quantities_and_prices) ... ok
+test_missing_supplied_answer_abstains (test_rules.InventoryConservationTests.test_missing_supplied_answer_abstains) ... ok
+test_area_and_volume_units (test_rules.TargetUnitBehaviorTests.test_area_and_volume_units) ... ok
+test_missing_target_or_result_unit_abstains (test_rules.TargetUnitBehaviorTests.test_missing_target_or_result_unit_abstains) ... ok
+test_requested_count_and_person_synonyms (test_rules.TargetUnitBehaviorTests.test_requested_count_and_person_synonyms) ... ok
+test_same_answer_unknown_unit_abstains (test_rules.TargetUnitBehaviorTests.test_same_answer_unknown_unit_abstains) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.662s
+
+OK

@@ -1,0 +1,70 @@
+{
+  "protocol": "one component removed at a time; all other settings unchanged; no refitting or retuning",
+  "records": [
+    {
+      "name": "full",
+      "correct": 770,
+      "n": 798,
+      "accuracy": 96.49122807017544,
+      "hard_correct": 327,
+      "hard_n": 355,
+      "hard_accuracy": 92.11267605633803
+    },
+    {
+      "name": "without_binding_head",
+      "correct": 769,
+      "n": 798,
+      "accuracy": 96.36591478696742,
+      "hard_correct": 326,
+      "hard_n": 355,
+      "hard_accuracy": 91.83098591549296
+    },
+    {
+      "name": "without_format_transfer",
+      "correct": 769,
+      "n": 798,
+      "accuracy": 96.36591478696742,
+      "hard_correct": 326,
+      "hard_n": 355,
+      "hard_accuracy": 91.83098591549296
+    },
+    {
+      "name": "without_target_units",
+      "correct": 768,
+      "n": 798,
+      "accuracy": 96.2406015037594,
+      "hard_correct": 325,
+      "hard_n": 355,
+      "hard_accuracy": 91.54929577464789
+    },
+    {
+      "name": "without_fraction_repair",
+      "correct": 769,
+      "n": 798,
+      "accuracy": 96.36591478696742,
+      "hard_correct": 326,
+      "hard_n": 355,
+      "hard_accuracy": 91.83098591549296
+    },
+    {
+      "name": "without_production_profit",
+      "correct": 769,
+      "n": 798,
+      "accuracy": 96.36591478696742,
+      "hard_correct": 326,
+      "hard_n": 355,
+      "hard_accuracy": 91.83098591549296
+    },
+    {
+      "name": "without_inventory_profit",
+      "correct": 769,
+      "n": 798,
+      "accuracy": 96.36591478696742,
+      "hard_correct": 326,
+      "hard_n": 355,
+      "hard_accuracy": 91.83098591549296
+    }
+  ],
+  "test_evaluated": false,
+  "validation_used_for_selection_previously": true
+}
